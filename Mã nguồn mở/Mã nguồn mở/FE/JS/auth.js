@@ -15,6 +15,7 @@ function getUsers() {
     return JSON.parse(localStorage.getItem("users")) || [];
 }
 
+
 function saveUsers(users) {
     localStorage.setItem("users", JSON.stringify(users));
 }
@@ -128,10 +129,7 @@ function protectPage(role) {
 // ==========================
 // ĐĂNG XUẤT
 // ==========================
-function logout() {
-    localStorage.removeItem("currentUser");
-    window.location.href = "login.html";
-}
+
 
 
 
