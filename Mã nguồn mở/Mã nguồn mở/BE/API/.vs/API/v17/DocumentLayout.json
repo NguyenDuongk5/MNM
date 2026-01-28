@@ -7,6 +7,34 @@
       "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\base\\repo\\baserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\post\\entity\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\post\\entity\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\base\\irepo\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\base\\irepo\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\post\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\post\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\users\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\users\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\users\\usersentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\users\\usersentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +45,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\post\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\post\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\iservice\\post\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,24 +59,8 @@
       "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\base\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\post\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\post\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\post\\entity\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\post\\entity\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\base\\irepo\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\base\\irepo\\ibaserepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\base\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\base\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\users\\usersentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\users\\usersentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|c:\\users\\thain\\downloads\\m\u00E3 ngu\u1ED3n m\u1EDF (2)\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\base\\baseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 20,
           "Children": [
             {
               "$type": "Bookmark",
@@ -102,7 +110,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-28T08:33:24.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersDto.cs",
+              "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UsersDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Users\\UsersDto.cs",
+              "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UsersDto.cs",
+              "RelativeToolTip": "DAL\\Entity\\Users\\UsersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T06:48:56.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "UsersController.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Users\\UsersController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\Users\\UsersController.cs",
@@ -115,33 +149,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "ProjectController.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Project\\ProjectController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\Project\\ProjectController.cs",
               "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Project\\ProjectController.cs",
               "RelativeToolTip": "API\\Controllers\\Project\\ProjectController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T17:02:50.065Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "PostController.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Post\\PostController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\Post\\PostController.cs",
               "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Post\\PostController.cs",
               "RelativeToolTip": "API\\Controllers\\Post\\PostController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T17:02:43.316Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "IPostService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Post\\IPostService.cs",
               "RelativeDocumentMoniker": "SERVICE\\IService\\Post\\IPostService.cs",
@@ -154,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Users\\UserService.cs",
               "RelativeDocumentMoniker": "SERVICE\\Service\\Users\\UserService.cs",
@@ -167,20 +201,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "UsersEntity.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UsersEntity.cs",
               "RelativeDocumentMoniker": "DAL\\Entity\\Users\\UsersEntity.cs",
               "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UsersEntity.cs",
               "RelativeToolTip": "DAL\\Entity\\Users\\UsersEntity.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-27T16:13:55.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
@@ -193,7 +227,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "BaseResult.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Base\\BaseResult.cs",
               "RelativeDocumentMoniker": "DAL\\Base\\BaseResult.cs",
@@ -206,20 +240,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "PostService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Post\\PostService.cs",
               "RelativeDocumentMoniker": "SERVICE\\Service\\Post\\PostService.cs",
               "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Post\\PostService.cs",
               "RelativeToolTip": "SERVICE\\Service\\Post\\PostService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABYAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwBYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T03:25:41.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "IBaseService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Base\\IService\\IBaseService.cs",
               "RelativeDocumentMoniker": "SERVICE\\Base\\IService\\IBaseService.cs",
@@ -232,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "BaseService.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Base\\Service\\BaseService.cs",
               "RelativeDocumentMoniker": "SERVICE\\Base\\Service\\BaseService.cs",
@@ -245,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "IBaseRepo.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Base\\IRepo\\IBaseRepo.cs",
               "RelativeDocumentMoniker": "DAL\\Base\\IRepo\\IBaseRepo.cs",
@@ -264,14 +298,14 @@
               "RelativeDocumentMoniker": "DAL\\Base\\Repo\\BaseRepo.cs",
               "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Base\\Repo\\BaseRepo.cs",
               "RelativeToolTip": "DAL\\Base\\Repo\\BaseRepo.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAuwFUAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T03:18:23.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "PostDto.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Post\\Dto\\PostDto.cs",
               "RelativeDocumentMoniker": "DAL\\Entity\\Post\\Dto\\PostDto.cs",
@@ -284,26 +318,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
               "Title": "PostEntity.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Post\\Entity\\PostEntity.cs",
               "RelativeDocumentMoniker": "DAL\\Entity\\Post\\Entity\\PostEntity.cs",
               "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Post\\Entity\\PostEntity.cs",
               "RelativeToolTip": "DAL\\Entity\\Post\\Entity\\PostEntity.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T03:16:09.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "BaseController.cs",
               "DocumentMoniker": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Base\\BaseController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\Base\\BaseController.cs",
               "ToolTip": "C:\\Users\\thain\\Downloads\\M\u00E3 ngu\u1ED3n m\u1EDF (2)\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Base\\BaseController.cs",
               "RelativeToolTip": "API\\Controllers\\Base\\BaseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-26T03:08:16.522Z",
               "EditorCaption": ""

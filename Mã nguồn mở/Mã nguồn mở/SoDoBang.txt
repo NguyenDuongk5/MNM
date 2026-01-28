@@ -1,0 +1,43 @@
+1. Các quan hệ chính giữa bảng
+
+Nhìn vào field id_... ta có:
+
+Quan hệ
+
+nguoi_dung
+
+là bảng gốc (user)
+
+du_an
+
+nguoi_tao → nguoi_dung.id_nguoi_dung
+
+bai_dang
+
+id_du_an → du_an.id
+
+id_tac_gia → nguoi_dung.id_nguoi_dung
+
+binh_luan
+
+id_bai_dang → bai_dang.id_bai_dang
+
+id_nguoi_dung → nguoi_dung.id_nguoi_dung
+
+thanh_vien_du_an
+
+id_du_an → du_an.id
+
+id_nguoi_dung → nguoi_dung.id_nguoi_dung
+
+thong_bao
+
+id_nguoi_nhan → nguoi_dung.id_nguoi_dung
+
+id_nguon → nguoi_dung.id_nguoi_dung
+
+id_du_an → du_an.id
+
+hanh_dong_nguoi_dung
+
+id_nguoi_dung → nguoi_dung.id_nguoi_dung
