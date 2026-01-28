@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Bài viết của tôi</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="../../CSS/baiviet.css" rel="stylesheet">
+
+<style>
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+.post-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.status { font-weight: 600; }
+.status.pending { color: orange; }
+.status.approved { color: green; }
+.status.rejected { color: red; }
+</style>
+</head>
+
+<body>
+
+<!-- ================= TOPBAR ================= -->
+<div class="topbar">
+    <div class="menu-toggle"><i class="bi bi-list"></i></div>
+    <div><i class="bi bi-folder2-open"></i> <b>CHÀO MỪNG ĐẾN VỚI DỰ ÁN</b></div>
+    <a href="login.html" class="btn btn-danger">Đăng xuất</a>
+</div>
+
+<!-- ================= SIDEBAR ================= -->
+<div class="sidebar" id="sidebar">
+    <h5 class="sidebar-title">Thông tin dự án</h5>
+
+    <div class="sidebar-info">
+        <p><b>Tên dự án:</b> Demo Project</p>
+        <p><b>Người tạo:</b> Nguyễn Văn A</p>
+        <p><b>Ngày tạo:</b> 01/01/2026</p>
+        <p><b>Người đăng nhập:</b> User Demo</p>
+        <a href="duan.html" class="btn btn-outline-secondary btn-sm">
+            <i class="bi bi-arrow-left"></i> Trở về dự án
+        </a>
+    </div>
+
+    <hr>
+    <a href="chitietduan.html"><i class="bi bi-house-door"></i> Trang chủ</a>
+    <a href="baivietcuatoi.html" class="active"><i class="bi bi-journal-text"></i> Bài viết của tôi</a>
+    <a href="duyetbaiviet.html"><i class="bi bi-kanban"></i> Quản lí bài viết</a>
+    <a href="quanlithanhvien.html"><i class="bi bi-people"></i> Thành viên</a>
+     <!-- Đối với người không có quyền quản lí <a href="thanhvien.html"><i class="bi bi-people"></i> Thành viên</a> --> 
+
+    <a href="chinhsuaduan.html" class="active"><i class="bi bi-gear"></i> Cài đặt dự án</a>
+
+    <hr>
+    <a href="#" class="text-danger">
+        <i class="bi bi-box-arrow-right"></i> Rời khỏi dự án
+    </a>
+</div>
+
+<!-- ================= CONTENT ================= -->
+<div class="content-area p-4" id="content">
+
+    <button class="btn btn-primary mb-3" data-bs-toggle="modal" data-bs-target="#postModal">
+        <i class="bi bi-pencil-square me-2"></i> Tạo bài viết
+    </button>
+
+    <!-- ====== BÀI VIẾT MẪU ====== -->
+    <div class="post-card">
+        <h5>Bài viết demo</h5>
+        <p class="text-muted">Ngày tạo: 10/01/2026 | Tác giả: User Demo</p>
+        <p>Nội dung bài viết mẫu để demo giao diện.</p>
+
+        <img src="https://via.placeholder.com/600x300"
+             class="img-fluid rounded mb-2">
+
+        <p class="status approved">Trạng thái: Đã duyệt</p>
+
+        <div class="post-actions">
+            <a href="suabaiviet.html" class="btn btn-warning btn-sm">
+                <i class="bi bi-pencil-square"></i> Chỉnh sửa
+            </a>
+            <button class="btn btn-danger btn-sm">
+                <i class="bi bi-trash"></i> Xóa
+            </button>
+        </div>
+    </div>
+
+</div>
+
+<!-- ================= MODAL TẠO BÀI ================= -->
+<div class="modal fade" id="postModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 class="modal-title">Tạo bài viết mới</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <input type="text" class="form-control mb-3" placeholder="Tiêu đề...">
+                <textarea class="form-control mb-3" rows="4" placeholder="Nội dung..."></textarea>
+                <input type="file" class="form-control">
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+                <button class="btn btn-primary">Đăng bài</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.querySelector(".menu-toggle").onclick = () => {
+    document.getElementById("sidebar").classList.toggle("show");
+    document.getElementById("content").classList.toggle("content-pushed");
+};
+</script>
+
+</body>
+</html>

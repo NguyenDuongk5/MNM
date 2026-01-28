@@ -1,0 +1,128 @@
+[
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Post.Entity.PostEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.Post.Dto.PostDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Insert",
+    "RelativePath": "post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "DAL.Entity.Post.Entity.PostEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Post.Entity.PostEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.Post.Dto.PostDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "post/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Post.Entity.PostEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.Post.Dto.PostDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "post/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Project.ProjectEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.project.ProjectDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Insert",
+    "RelativePath": "project",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "DAL.Entity.Project.ProjectEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Project.ProjectEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.project.ProjectDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "project/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Project.ProjectEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.project.ProjectDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "project/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Users.UsersEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.Users.UsersDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Insert",
+    "RelativePath": "users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "entity",
+        "Type": "DAL.Entity.Users.UsersEntity",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Users.UsersEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.Users.UsersDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "Delete",
+    "RelativePath": "users/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Controllers.Base.BaseController\u00602[[DAL.Entity.Users.UsersEntity, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DAL.Entity.Users.UsersDto, DAL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+    "Method": "GetAll",
+    "RelativePath": "users/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

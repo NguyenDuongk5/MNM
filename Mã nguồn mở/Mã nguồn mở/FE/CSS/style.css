@@ -1,0 +1,162 @@
+  body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: linear-gradient(135deg, #6ec6ff, #b3e5fc, #ffffff);
+    position: relative;
+    overflow-y: auto; /* Cho phép cuộn toàn trang */
+    padding: 2rem 1rem;
+  }
+
+  /* Hiệu ứng nền bong bóng */
+  body::before {
+    content: "";
+    position: fixed;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 0;
+    background-image:
+      radial-gradient(circle at 10% 20%, rgba(255,255,255,0.5) 2%, transparent 8%),
+      radial-gradient(circle at 90% 30%, rgba(255,255,255,0.4) 2%, transparent 8%),
+      radial-gradient(circle at 40% 70%, rgba(255,255,255,0.4) 3%, transparent 10%),
+      radial-gradient(circle at 80% 80%, rgba(255,255,255,0.3) 3%, transparent 10%);
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    opacity: 0.6;
+    z-index: 0;
+  }
+
+  /* Form chính */
+  .login-card,
+  .register-card {
+    width: 100%;
+    max-width: 380px;
+    background: rgba(255, 255, 255, 0.97);
+    border-radius: 1.2rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    border: 2px solid #42a5f5;
+    z-index: 1;
+    text-align: center;
+    padding: 2rem 1.6rem;
+    margin-bottom: 2rem; /* giúp khoảng cách khi cuộn */
+  }
+
+  /* Tiêu đề */
+  .login-card h3,
+  .register-card h3 {
+    font-weight: 700;
+    color: #0277bd;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  /* Logo Doraemon */
+  .doraemon-logo {
+    width: 70px;
+    height: 70px;
+    background: radial-gradient(circle at 40% 40%, #ffffff 25%, #42a5f5 80%);
+    border: 3px solid #0288d1;
+    border-radius: 50%;
+    margin: 0 auto 1rem auto;
+    position: relative;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+
+  .doraemon-logo::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 18px;
+    height: 6px;
+    background: #ffeb3b;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+  }
+
+  /* Input */
+  .form-control {
+    border-radius: 0.75rem;
+    border: 1px solid #90caf9;
+    padding: 0.65rem;
+    font-size: 0.95rem;
+  }
+
+  /* Button */
+  .btn-login,
+  .btn-register {
+    background: linear-gradient(90deg, #42a5f5, #29b6f6);
+    border: none;
+    color: white;
+    font-weight: 600;
+    border-radius: 0.75rem;
+    transition: 0.3s;
+    font-size: 0.95rem;
+    padding: 0.6rem;
+  }
+
+  .btn-login:hover,
+  .btn-register:hover {
+    background: linear-gradient(90deg, #29b6f6, #0288d1);
+    transform: translateY(-2px);
+  }
+
+  /* Link */
+  .forgot {
+    text-align: right;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 0.4rem;
+    color: #0277bd;
+  }
+
+  .signup,
+  .login-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    color: #0277bd;
+  }
+
+  .signup a,
+  .login-link a {
+    color: #01579b;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .signup a:hover,
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+  /* Responsive nhỏ hơn 480px */
+  @media (max-width: 480px) {
+    body {
+      padding: 1rem;
+    }
+    .login-card,
+    .register-card {
+      padding: 1.4rem 1rem;
+      border-width: 2px;
+      max-width: 90%;
+    }
+    .doraemon-logo {
+      width: 60px;
+      height: 60px;
+    }
+    .login-card h3,
+    .register-card h3 {
+      font-size: 1.2rem;
+    }
+    .btn-login,
+    .btn-register {
+      font-size: 0.9rem;
+    }
+  }

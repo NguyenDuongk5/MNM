@@ -1,0 +1,157 @@
+/* BACKGROUND + FONT */
+body {
+    background: linear-gradient(135deg, #BEE9FF 0%, #FFFFFF 35%, #A0DBFF 100%);
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+
+/* TOPBAR */
+.topbar {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    background: rgba(35, 175, 255, 0.85);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    height: 70px;
+    padding: 0 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    margin-top: 15px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index: 999;
+}
+
+.menu-toggle {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* SIDEBAR */
+.sidebar {
+    position: fixed;
+    top: 105px;
+    left: -280px;
+    width: 260px;
+    height: calc(100vh - 130px);
+    background: rgba(255,255,255,0.6);
+    backdrop-filter: blur(16px);
+    border-radius: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+    padding: 20px 0;
+    transition: 0.35s;
+}
+
+.sidebar.show {
+    left: 20px;
+}
+
+.sidebar-title {
+    font-weight: bold;
+    color: #004A91;
+    padding: 0 25px;
+}
+
+.sidebar-info p {
+    margin: 5px 0;
+    padding: 0 25px;
+    font-weight: 500;
+}
+
+.sidebar a {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 22px;
+    margin: 8px 12px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #004A91;
+    border-radius: 15px;
+    transition: 0.25s;
+}
+
+.sidebar a:hover {
+    background: #23AFFF;
+    color: #fff;
+    transform: translateX(5px);
+}
+
+/* CONTENT */
+.content-area {
+    margin-left: 0;
+    padding: 120px 25px 40px;
+    transition: 0.35s;
+}
+
+.shifted {
+    margin-left: 300px;
+}
+
+/* BUTTON TẠO BÀI */
+.create-btn {
+    padding: 12px 20px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #007bff;
+    border: none;
+}
+
+/* POPUP */
+.modal-content {
+    border-radius: 18px !important;
+}
+
+/* BÀI VIẾT */
+.post-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 18px;
+    margin-top: 20px;
+    box-shadow: 0 5px 18px rgba(0,0,0,0.1);
+}
+
+.post-header {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.post-actions span {
+    margin-right: 20px;
+    color: #555;
+    font-weight: 500;
+}
+
+.comment-box {
+    background: #f7fbff;
+    padding: 10px 12px;
+    border-radius: 12px;
+    margin-bottom: 8px;
+}
+
+.comment-name {
+    font-weight: 700;
+    color: #004A91;
+}
+
+.comment-time {
+    font-size: 12px;
+    color: #777;
+}
+.post-image {
+    width: 100%;
+    height: 220px;        /* chiều cao cố định */
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.post-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* CẮT ẢNH – KHÔNG MÉO */
+}

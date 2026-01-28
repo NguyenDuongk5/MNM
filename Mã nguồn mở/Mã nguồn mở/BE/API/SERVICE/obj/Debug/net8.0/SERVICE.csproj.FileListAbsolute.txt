@@ -1,0 +1,16 @@
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\bin\Debug\net8.0\SERVICE.deps.json
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\bin\Debug\net8.0\SERVICE.dll
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\bin\Debug\net8.0\SERVICE.pdb
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\bin\Debug\net8.0\DAL.dll
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\bin\Debug\net8.0\DAL.pdb
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.csproj.AssemblyReference.cache
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.AssemblyInfoInputs.cache
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.AssemblyInfo.cs
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.csproj.CoreCompileInputs.cache
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.sourcelink.json
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.csproj.Up2Date
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.dll
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\refint\SERVICE.dll
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\SERVICE.pdb
+C:\Users\thain\Downloads\Mã nguồn mở (2)\Mã nguồn mở\Mã nguồn mở\BE\API\SERVICE\obj\Debug\net8.0\ref\SERVICE.dll
