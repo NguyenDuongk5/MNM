@@ -1,0 +1,592 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\service\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\iservice\\users\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\iservice\\users\\iusersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\users\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\users\\userauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\users\\userauthdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\users\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\irepo\\users\\iusersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\irepo\\users\\iusersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\repo\\users\\usersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\repo\\users\\usersrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\users\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\users\\usersdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\iservice\\member\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\iservice\\member\\imemberservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\irepo\\role\\irolerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\irepo\\role\\irolerepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\project\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\project\\projectdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\project\\projectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\project\\projectentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\post\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\post\\dto\\postdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\base\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\base\\service\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\service\\role\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service\\role\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\iservice\\role\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\iservice\\role\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\member\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\member\\memberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\member\\memberentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\role\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\role\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\role\\roleentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\base\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\base\\iservice\\ibaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\post\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\post\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\controllers\\base\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\iservice\\post\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\iservice\\post\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\entity\\post\\entity\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\entity\\post\\entity\\postentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\dal\\base\\baseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA6C338C-3E14-4D6F-81AC-5D172D76FE2B}|DAL\\DAL.csproj|solutionrelative:dal\\base\\baseresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A3AFF65-63CD-4DBD-9151-7B4E0B6BA494}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|e:\\m\u00E3 ngu\u1ED3n m\u1EDF\\mnm-main\\mnm-main\\m\u00E3 ngu\u1ED3n m\u1EDF\\m\u00E3 ngu\u1ED3n m\u1EDF\\be\\api\\service\\service\\post\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB234ED5-AD3E-4B21-9109-23D7E41C5149}|SERVICE\\SERVICE.csproj|solutionrelative:service\\service\\post\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAADUAAACqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T05:46:03.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Users\\AuthController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Users\\AuthController.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Users\\AuthController.cs",
+              "RelativeToolTip": "API\\Controllers\\Users\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T05:40:34.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\Service\\Users\\UserService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Users\\UserService.cs",
+              "RelativeToolTip": "SERVICE\\Service\\Users\\UserService.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwE8AAAChAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T04:23:22.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersRepo.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Repo\\Users\\UsersRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\Repo\\Users\\UsersRepo.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Repo\\Users\\UsersRepo.cs",
+              "RelativeToolTip": "DAL\\Repo\\Users\\UsersRepo.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T04:22:05.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUsersService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Users\\IUsersService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\IService\\Users\\IUsersService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Users\\IUsersService.cs",
+              "RelativeToolTip": "SERVICE\\IService\\Users\\IUsersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T04:37:29.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUsersRepo.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\IRepo\\Users\\IUsersRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\IRepo\\Users\\IUsersRepo.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\IRepo\\Users\\IUsersRepo.cs",
+              "RelativeToolTip": "DAL\\IRepo\\Users\\IUsersRepo.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T04:34:33.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Users\\UsersController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Users\\UsersController.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Users\\UsersController.cs",
+              "RelativeToolTip": "API\\Controllers\\Users\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T04:24:07.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserAuthDto.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UserAuthDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Users\\UserAuthDto.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UserAuthDto.cs",
+              "RelativeToolTip": "DAL\\Entity\\Users\\UserAuthDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T05:15:34.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsersDto.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UsersDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Users\\UsersDto.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Users\\UsersDto.cs",
+              "RelativeToolTip": "DAL\\Entity\\Users\\UsersDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T04:16:44.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMemberService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Member\\IMemberService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\IService\\Member\\IMemberService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Member\\IMemberService.cs",
+              "RelativeToolTip": "SERVICE\\IService\\Member\\IMemberService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:56:55.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SERVICE.csproj",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\SERVICE.csproj",
+              "RelativeDocumentMoniker": "SERVICE\\SERVICE.csproj",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\SERVICE.csproj",
+              "RelativeToolTip": "SERVICE\\SERVICE.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-30T15:32:07.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IRoleRepo.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\IRepo\\Role\\IRoleRepo.cs",
+              "RelativeDocumentMoniker": "DAL\\IRepo\\Role\\IRoleRepo.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\IRepo\\Role\\IRoleRepo.cs",
+              "RelativeToolTip": "DAL\\IRepo\\Role\\IRoleRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:21:08.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProjectDto.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Project\\ProjectDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Project\\ProjectDto.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Project\\ProjectDto.cs",
+              "RelativeToolTip": "DAL\\Entity\\Project\\ProjectDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T15:24:23.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProjectEntity.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Project\\ProjectEntity.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Project\\ProjectEntity.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Project\\ProjectEntity.cs",
+              "RelativeToolTip": "DAL\\Entity\\Project\\ProjectEntity.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T03:50:00.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PostDto.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Post\\Dto\\PostDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Post\\Dto\\PostDto.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Post\\Dto\\PostDto.cs",
+              "RelativeToolTip": "DAL\\Entity\\Post\\Dto\\PostDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Role\\RoleController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Role\\RoleController.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Role\\RoleController.cs",
+              "RelativeToolTip": "API\\Controllers\\Role\\RoleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:30:06.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Base\\Service\\BaseService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\Base\\Service\\BaseService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Base\\Service\\BaseService.cs",
+              "RelativeToolTip": "SERVICE\\Base\\Service\\BaseService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Role\\RoleService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\Service\\Role\\RoleService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Role\\RoleService.cs",
+              "RelativeToolTip": "SERVICE\\Service\\Role\\RoleService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:12:53.252Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Role\\IRoleService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\IService\\Role\\IRoleService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Role\\IRoleService.cs",
+              "RelativeToolTip": "SERVICE\\IService\\Role\\IRoleService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:17:35.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MemberDto.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Member\\MemberDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Member\\MemberDto.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Member\\MemberDto.cs",
+              "RelativeToolTip": "DAL\\Entity\\Member\\MemberDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:39:46.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MemberEntity.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Member\\MemberEntity.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Member\\MemberEntity.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Member\\MemberEntity.cs",
+              "RelativeToolTip": "DAL\\Entity\\Member\\MemberEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:39:17.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RoleDto.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Role\\RoleDto.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Role\\RoleDto.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Role\\RoleDto.cs",
+              "RelativeToolTip": "DAL\\Entity\\Role\\RoleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:09:48.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RoleEntity.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Role\\RoleEntity.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Role\\RoleEntity.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Role\\RoleEntity.cs",
+              "RelativeToolTip": "DAL\\Entity\\Role\\RoleEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T02:01:13.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IBaseService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Base\\IService\\IBaseService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\Base\\IService\\IBaseService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Base\\IService\\IBaseService.cs",
+              "RelativeToolTip": "SERVICE\\Base\\IService\\IBaseService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-28T07:28:58.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-28T08:32:34.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-28T08:32:56.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Post\\IPostService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\IService\\Post\\IPostService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\IService\\Post\\IPostService.cs",
+              "RelativeToolTip": "SERVICE\\IService\\Post\\IPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Post\\PostController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Post\\PostController.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Post\\PostController.cs",
+              "RelativeToolTip": "API\\Controllers\\Post\\PostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "BaseResult.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Base\\BaseResult.cs",
+              "RelativeDocumentMoniker": "DAL\\Base\\BaseResult.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Base\\BaseResult.cs",
+              "RelativeToolTip": "DAL\\Base\\BaseResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Post\\PostService.cs",
+              "RelativeDocumentMoniker": "SERVICE\\Service\\Post\\PostService.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\SERVICE\\Service\\Post\\PostService.cs",
+              "RelativeToolTip": "SERVICE\\Service\\Post\\PostService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAABRwBYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "PostEntity.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Post\\Entity\\PostEntity.cs",
+              "RelativeDocumentMoniker": "DAL\\Entity\\Post\\Entity\\PostEntity.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\DAL\\Entity\\Post\\Entity\\PostEntity.cs",
+              "RelativeToolTip": "DAL\\Entity\\Post\\Entity\\PostEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Base\\BaseController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\Base\\BaseController.cs",
+              "ToolTip": "E:\\M\u00E3 ngu\u1ED3n m\u1EDF\\MNM-main\\MNM-main\\M\u00E3 ngu\u1ED3n m\u1EDF\\M\u00E3 ngu\u1ED3n m\u1EDF\\BE\\API\\API\\Controllers\\Base\\BaseController.cs",
+              "RelativeToolTip": "API\\Controllers\\Base\\BaseController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T07:28:58.249Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 167,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

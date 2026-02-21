@@ -1,0 +1,58 @@
+Client (Postman / FE)  				Nhận id từ URL
+        ↓						↓
+Controller (API) 			     Gọi Delete(Guid id)        
+	↓						↓
+Service (Business Logic)		 Delete(id) -> Kiểm tra tồn tại
+        ↓ 						↓
+DAL(Data Access Layer) / Repository	Gọi repo -> DELETE FROM nguoi_dung WHERE id = @id  
+        ↓						↓
+Database (MySQL)				     Xóa db
+
+I) Tầng DAL (Data Access Layer – Repository)
+1. Nhiệm vụ
+Làm việc trực tiếp với database.
+Mở connection.
+Viết SQL.
+Map dữ liệu DB → Entity.
+Insert / Update / Delete / Select.
+
+2. Thành phần
++Entity đại diện 1 bảng trong DB.
++DTO là dữ liệu trả ra ngoài API,giúp che bớt field nhạy cảm (ví dụ mật khẩu).
++Repo chứa logic SQL.
+
+3.DAL KHÔNG nên
++Viết nghiệp vụ.
++Validate phức tạp.
++Quyết định HTTP code.
+
+II) Tầng Service (Business Logic)
+1. Nhiệm vụ
+Xử lý nghiệp vụ, logic hệ thống.
+Validate dữ liệu.
+Kiểm tra tồn tại.
+Kiểm tra quyền.
+Xử lý transaction.
+Gọi repo.
+Mapping Entity → DTO. 
+
+2. Thành phần:
++ Interface
++ Implement
+
+3. Service KHÔNG nên
+Viết SQL.
+Nhận HttpRequest.
+Trả IActionResult.
+
+III) Tầng controller (API)
+1.Nhiệm vụ chính: Giao tiếp với client(FE).
+Nhận request HTTP.
+Bind dữ liệu từ URL / body.
+Gọi service.
+Trả response HTTP.
+
+2.Controller KHÔNG nên
+Viết SQL.
+Xử lý nghiệp vụ phức tạp.
+Truy cập DB trực tiếp.

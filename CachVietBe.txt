@@ -1,0 +1,38 @@
+I) Tầng DAL (repo)
+1.Khai báo thuộc tính bang trong file tenbangEntity
+[Table("ten_bang")]
+public class tenbangEntity
+{
+    [Key]
+    public Guid id_bang { get; set; }
+    ... cac thuoc tinh khac ...
+}
+2. file tenbangDto kế thừa tenbangEntity
+3. file tenbangRepo và ItenbangRepo
+II) Tầng service
+1. Tạo file ItenbangService
+public interface ItenbangService : IBaseService<tenbangEntity, tenbangDto>{}
+
+2. Tạo file tenbangService kế thừa ItenbangService
+public class tenbangService : BaseService<tenbangEntity, tenbangDto>, ItenbangService
+{
+    private readonly ItenbangRepo _repo;
+    public tenbangService(ItenbangRepo repo) : base(repo)
+    {
+        _repo = repo;
+    }
+}
+
+III) Tầng controller (Api)
+1. Viết file tenbangController kế thừa BaseController
+[ApiController]
+[Route("[controller]")]
+public class tenbangController : BaseController<tenbangEntity, tenbangDto>
+{
+    private readonly ItenbangService _service;
+    public tenbangController(ItenbangService service) : base(service) 
+    {
+        _service = service;
+    }
+}
+Khai báo trong program.cs
