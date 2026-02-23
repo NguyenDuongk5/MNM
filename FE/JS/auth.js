@@ -1,252 +1,230 @@
 // ==========================
-// TÀI KHOẢN ADMIN CỐ ĐỊNH
+// AUTH.JS - CLEAN VERSION
 // ==========================
-const ADMIN_ACCOUNT = {
-    username: "admin",
-    password: "123456",
-    fullname: "Administrator",
-    role: "admin"
-};
 
-// ==========================
-// USER STORAGE
-// ==========================
-function getUsers() {
-    return JSON.parse(localStorage.getItem("users")) || [];
-}
-
-function saveUsers(users) {
-    localStorage.setItem("users", JSON.stringify(users));
-}
-
-// ==========================
-// ĐĂNG NHẬP
-// ==========================
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
     const loginBtn = document.querySelector(".btn-login");
-    if (!loginBtn) return;
+    if (loginBtn) loginBtn.addEventListener("click", login);
 
-    loginBtn.addEventListener("click", function () {
-        const username = document.getElementById("tendangnhap").value.trim();
-        const password = document.getElementById("password").value;
-
-        if (!username || !password) {
-            alert("Vui lòng nhập đầy đủ tài khoản và mật khẩu!");
-            return;
-        }
-
-        // ===== ADMIN =====
-        if (
-            username === ADMIN_ACCOUNT.username &&
-            password === ADMIN_ACCOUNT.password
-        ) {
-            localStorage.setItem("currentUser", JSON.stringify(ADMIN_ACCOUNT));
-            window.location.href = "admin.html";
-            return;
-        }
-
-        // ===== USER =====
-        const users = getUsers();
-        const user = users.find(
-            u =>
-                (u.username === username || u.email === username) &&
-                u.password === password
-        );
-
-        if (!user) {
-            alert("Tài khoản không tồn tại hoặc mật khẩu sai!");
-            return;
-        }
-
-        localStorage.setItem("currentUser", JSON.stringify(user));
-        window.location.href = "user.html";
-    });
+    const registerForm = document.querySelector("#registerForm");
+    if (registerForm) registerForm.addEventListener("submit", registerUser);
 });
 
+
 // ==========================
-// ĐĂNG KÝ
+// LOGIN
 // ==========================
-function registerUser(e) {
+async function login() {
+    const username = document.getElementById("tendangnhap").value.trim();
+    const password = document.getElementById("password").value.trim();
+
+    if (!username || !password) {
+        alert("Vui lòng nhập đầy đủ tài khoản và mật khẩu!");
+        return;
+    }
+
+    try {
+        const res = await fetch("http://localhost:6025/api/users/login", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                tendangnhap: username,
+                matkhau: password
+            })
+        });
+
+        const text = await res.text();
+        let result;
+
+        try {
+            result = JSON.parse(text);
+        } catch {
+            alert("Server lỗi: " + text);
+            return;
+        }
+
+        if (!res.ok) {
+            alert(result.message || "Đăng nhập thất bại");
+            return;
+        }
+
+        localStorage.setItem("currentUser", JSON.stringify(result));
+
+        alert("Đăng nhập thành công!");
+        window.location.href = "/HTML/Trangchung/user.html";
+
+    } catch (err) {
+        console.error(err);
+        alert("Không thể kết nối server");
+    }
+}
+
+
+// ==========================
+// REGISTER
+// ==========================
+async function registerUser(e) {
     e.preventDefault();
 
-    const fullname = document.querySelector("[name='fullname']").value.trim();
-    const username = document.querySelector("[name='tendangnhap']").value.trim();
-    const email = document.querySelector("[name='email']").value.trim();
-    const password = document.querySelector("[name='password']").value;
-    const repassword = document.querySelector("[name='repassword']").value;
+    const hoten = document.querySelector('[name="fullname"]').value.trim();
+    const tendangnhap = document.querySelector('[name="tendangnhap"]').value.trim();
+    const email = document.querySelector('[name="email"]').value.trim();
+    const matkhau = document.querySelector('[name="password"]').value;
+    const repassword = document.querySelector('[name="repassword"]').value;
 
-    if (!fullname || !username || !email || !password) {
-        alert("Vui lòng nhập đầy đủ thông tin!");
-        return;
-    }
-
-    if (password !== repassword) {
-        alert("Mật khẩu nhập lại không khớp!");
-        return;
-    }
-
-    const users = getUsers();
-
-    if (users.find(u => u.username === username || u.email === email)) {
-        alert("Tài khoản hoặc email đã tồn tại!");
-        return;
-    }
-
-    users.push({
-        fullname,
-        username,
-        email,
-        password,
-        role: "user"
-    });
-
-    saveUsers(users);
-    alert("Đăng ký thành công! Vui lòng đăng nhập.");
-    window.location.href = "login.html";
-}
-
-// ==========================
-// BẢO VỆ TRANG (ADMIN / USER)
-// ==========================
-function protectPage(role) {
-    const currentUser = JSON.parse(localStorage.getItem("currentUser"));
-
-    if (!currentUser || currentUser.role !== role) {
-        window.location.href = "../login.html";
-        return;
-    }
-
-    const nameEl =
-        document.getElementById("adminName") ||
-        document.getElementById("userName");
-
-    if (nameEl) {
-        nameEl.innerText = currentUser.fullname;
-    }
-}
-
-// ==========================
-// ĐĂNG XUẤT
-// ==========================
-function logout() {
-    localStorage.removeItem("currentUser");
-    window.location.href = "login.html";
-}
-
-
-
-
-
-// Lấy form đăng ký
-const registerForm = document.querySelector("form");
-
-registerForm.addEventListener("submit", function (event) {
-    event.preventDefault(); // chặn reload
-
-    const fullname = document.querySelector('input[name="fullname"]').value.trim();
-    const username = document.querySelector('input[name="tendangnhap"]').value.trim();
-    const email = document.querySelector('input[name="email"]').value.trim();
-    const password = document.querySelector('input[name="password"]').value;
-    const repassword = document.querySelector('input[name="repassword"]').value;
-
-    // 1. Kiểm tra rỗng
-    if (!fullname || !username || !email || !password || !repassword) {
+    if (!hoten || !tendangnhap || !email || !matkhau || !repassword) {
         alert("Vui lòng nhập đầy đủ thông tin");
         return;
     }
 
-    // 2. Kiểm tra email hợp lệ
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
-        alert("Email không hợp lệ");
+    if (matkhau.length < 6) {
+        alert("Mật khẩu phải >= 6 ký tự");
         return;
     }
 
-    // 3. Kiểm tra độ dài mật khẩu
-    if (password.length < 6) {
-        alert("Mật khẩu phải có ít nhất 6 ký tự");
-        return;
-    }
-
-    // 4. Kiểm tra nhập lại mật khẩu
-    if (password !== repassword) {
+    if (matkhau !== repassword) {
         alert("Mật khẩu nhập lại không khớp");
         return;
     }
 
-    // 5. Lấy danh sách user
-    let users = JSON.parse(localStorage.getItem("users")) || [];
+    try {
+        const res = await fetch("http://localhost:6025/api/users/register", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+                hoten,
+                tendangnhap,
+                email,
+                matkhau
+            })
+        });
 
-    // 6. Kiểm tra trùng username
-    const isExist = users.some(user => user.username === username);
-    if (isExist) {
-        alert("Tên đăng nhập đã tồn tại");
-        return;
+        const text = await res.text();
+        let result;
+
+        try {
+            result = JSON.parse(text);
+        } catch {
+            alert("Server lỗi: " + text);
+            return;
+        }
+
+        if (!res.ok) {
+            alert(result.message || "Đăng ký thất bại");
+            return;
+        }
+
+        alert("Đăng ký thành công!");
+        window.location.href = "/HTML/Trangchung/login.html";
+
+    } catch (err) {
+        console.error(err);
+        alert("Không thể kết nối server");
     }
-
-    // 7. Tạo user mới
-    const newUser = {
-        fullname,
-        username,
-        email,
-        password,
-        role: "user"
-    };
-
-    users.push(newUser);
-    localStorage.setItem("users", JSON.stringify(users));
-
-    alert("Đăng ký thành công!");
-
-    // 8. Chuyển sang trang đăng nhập
-    window.location.href = "login.html";
-});
+}
 
 
-
-//quen mk
-
-const input = document.querySelector("input");
-const button = document.querySelector("button");
-const form = document.querySelector("form");
-
-// Tạo div thông báo
-const alertBox = document.createElement("div");
-form.insertBefore(alertBox, form.children[1]);
-
-button.addEventListener("click", function () {
-    const value = input.value.trim();
-
-    if (!value) {
-        showError("Vui lòng nhập tên đăng nhập hoặc email");
-        return;
-    }
-
-    const users = JSON.parse(localStorage.getItem("users")) || [];
-
-    // Tìm user theo username hoặc email
-    const user = users.find(
-        u => u.username === value || u.email === value
-    );
-
+// ==========================
+// PROTECT PAGE
+// ==========================
+function protectPage() {
+    const user = localStorage.getItem("currentUser");
     if (!user) {
-        showError("Không tìm thấy tài khoản!");
-        return;
+        window.location.href = "/HTML/Trangchung/login.html";
+    }
+}
+
+
+// ==========================
+// LOGOUT
+// ==========================
+function logout() {
+    localStorage.removeItem("currentUser");
+    window.location.href = "/HTML/Trangchung/login.html";
+}
+// ==========================
+// GET CURRENT USER
+// ==========================
+function getCurrentUser() {
+
+    const raw = localStorage.getItem("currentUser");
+
+    if (!raw) return null;
+
+    try {
+
+        const data = JSON.parse(raw);
+
+        return data.user || data;
+
+    } catch {
+
+        return null;
+
     }
 
-    // Che mật khẩu (abc***)
-    const maskedPassword =
-        user.password.substring(0, 3) + "***";
+}
 
-    showSuccess(`Gợi ý mật khẩu của bạn là: <strong>${maskedPassword}</strong>`);
+
+// ==========================
+// CHECK ADMIN (ADMIN CỐ ĐỊNH)
+// ==========================
+function isAdmin() {
+
+    const user = getCurrentUser();
+
+    if (!user) return false;
+
+    // ID admin cố định của bạn
+    return user.id_nguoi_dung === "11111111-1111-1121-1111-111111111111";
+
+}
+
+
+// ==========================
+// CHECK USER thường
+// ==========================
+function isUser() {
+
+    const user = getCurrentUser();
+
+    if (!user) return false;
+
+    return !isAdmin();
+
+}
+document.addEventListener("DOMContentLoaded", () => {
+
+    if (isAdmin()) {
+
+        const sidebar = document.getElementById("sidebarMenu");
+
+        sidebar.innerHTML = `
+            <a href="user.html">
+                <i class="bi bi-house-door"></i> Trang chủ
+            </a>
+
+            <a href="../Admin/quanliduan.html" class="active">
+                <i class="bi bi-kanban"></i> Quản lí dự án
+            </a>
+
+            <a href="../Admin/quanlinguoidung.html">
+                <i class="bi bi-people"></i> Quản lí người dùng
+            </a>
+
+            <a href="../Admin/nhatkihoatdong.html">
+                <i class="bi bi-journal-text"></i> Nhật ký hoạt động
+            </a>
+
+            <a href="../Admin/quanliphanquyen.html">
+                <i class="bi bi-shield-lock"></i> Quản lí phân quyền
+            </a>
+
+            <a href="../Admin/chinhsuatk.html">
+                <i class="bi bi-gear"></i> Cài đặt tài khoản
+            </a>
+        `;
+
+    }
+
 });
-
-function showSuccess(message) {
-    alertBox.className = "alert alert-success";
-    alertBox.innerHTML = message;
-}
-
-function showError(message) {
-    alertBox.className = "alert alert-danger";
-    alertBox.innerText = message;
-}

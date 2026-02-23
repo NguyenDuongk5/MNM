@@ -1,104 +1,85 @@
-// // =======================================
-// // FILE: user-auth.js
-// // ĐĂNG KÝ + ĐĂNG NHẬP NGƯỜI DÙNG
-// // =======================================
+document.addEventListener("DOMContentLoaded", () => {
+    loadUserProjects();
+});
 
-// // Lấy danh sách user
-// function getUsers() {
-//     return JSON.parse(localStorage.getItem("users")) || [];
-// }
+async function loadUserProjects() {
+    const raw = localStorage.getItem("currentUser");
 
-// // Lưu danh sách user
-// function saveUsers(users) {
-//     localStorage.setItem("users", JSON.stringify(users));
-// }
+    if (!raw) {
+        console.log("Chưa login");
+        return;
+    }
 
-// // =====================
-// // ĐĂNG KÝ
-// // =====================
-// function registerUser(fullname, username, email, password, repassword) {
-//     const errorBox = document.querySelector(".text-danger");
-//     errorBox.innerText = "";
+    const data = JSON.parse(raw);
+    console.log("User from storage:", data);
 
-//     if (!fullname || !username || !email || !password || !repassword) {
-//         errorBox.innerText = "Vui lòng nhập đầy đủ thông tin!";
-//         return false;
-//     }
+    const user = data.user || data;
 
-//     if (password !== repassword) {
-//         errorBox.innerText = "Mật khẩu nhập lại không khớp!";
-//         return false;
-//     }
+    if (!user || !user.id_nguoi_dung) {
+        console.log("Không tìm thấy user", user);
+        return;
+    }
 
-//     const users = getUsers();
+    const userId = user.id_nguoi_dung;
 
-//     // Kiểm tra trùng username hoặc email
-//     const exists = users.find(
-//         u => u.username === username || u.email === email
-//     );
+    try {
+        const res = await fetch(`http://localhost:6025/api/users/${userId}/projects`, {
+            method: "GET",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        });
 
-//     if (exists) {
-//         errorBox.innerText = "Tên đăng nhập hoặc email đã tồn tại!";
-//         return false;
-//     }
+        const projects = await res.json();
 
-//     // Lưu user mới
-//     users.push({
-//         fullname,
-//         username,
-//         email,
-//         password
-//     });
+        if (!res.ok) {
+            alert(projects.message || "Không lấy được dự án");
+            return;
+        }
 
-//     saveUsers(users);
-//     alert("Đăng ký thành công! Vui lòng đăng nhập.");
-//     return true;
-// }
+        renderProjects(projects);
 
-// // =====================
-// // ĐĂNG NHẬP
-// // =====================
-// function loginUser(usernameOrEmail, password) {
-//     const users = getUsers();
+    } catch (err) {
+        console.error(err);
+        alert("Không thể kết nối server");
+    }
+}
 
-//     const user = users.find(
-//         u =>
-//             (u.username === usernameOrEmail || u.email === usernameOrEmail) &&
-//             u.password === password
-//     );
 
-//     if (!user) {
-//         alert("Tài khoản chưa tồn tại hoặc mật khẩu sai!");
-//         return false;
-//     }
+function renderProjects(projects) {
+    const container = document.getElementById("projectList");
+    container.innerHTML = "";
 
-//     localStorage.setItem(
-//         "userLogin",
-//         JSON.stringify({
-//             username: user.username,
-//             fullname: user.fullname,
-//             email: user.email
-//         })
-//     );
+    if (!projects || projects.length === 0) {
+        container.innerHTML = `<p class="text-muted">Bạn chưa có dự án nào.</p>`;
+        return;
+    }
 
-//     return true;
-// }
+    // Lấy 3 dự án đầu
+    const top3 = projects.slice(0, 3);
 
-// // =====================
-// // ĐĂNG XUẤT
-// // =====================
-// function logoutUser() {
-//     localStorage.removeItem("userLogin");
-//     window.location.href = "login.html";
-// }
+    top3.forEach(p => {
+        const date = new Date(p.ngay_tao).toLocaleDateString("vi-VN");
 
-// // =====================
-// // KIỂM TRA ĐĂNG NHẬP
-// // =====================
-// function checkLogin() {
-//     const user = JSON.parse(localStorage.getItem("userLogin"));
-//     if (!user) {
-//         window.location.href = "login.html";
-//     }
-//     return user;
-// }
+        container.innerHTML += `
+        <div class="col-md-4">
+            <div class="feature-card" style="border-top:5px solid #0d6efd;">
+                <div class="d-flex align-items-start gap-3 mb-3">
+                    <div class="icon-bg">
+                        <i class="bi bi-kanban fs-5"></i>
+                    </div>
+                    <div>
+                        <h6 class="mb-1">${p.ten_du_an}</h6>
+                        <p class="text-muted small mb-1">Ngày tạo: ${date}</p>
+                        <p class="text-muted small mb-0">Người tạo: ${p.ho_ten}</p>
+                        <a href="../Nguoidung/chitiet.html?id=${p.id_du_an}" 
+                           class="btn btn-sm btn-primary mt-2">
+                            Xem chi tiết
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>`;
+    });
+}
+
