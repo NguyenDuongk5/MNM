@@ -19,23 +19,22 @@
 <link rel="stylesheet" href="../../CSS/project.css">
 </head>
 
-<body>
 
 <!-- TOPBAR -->
 <div class="topbar">
     <div>
-        <i class="bi bi-person-circle"></i> Xin chào, Người dùng
+        <i class="bi bi-person-circle"></i> Xin chào, <span id="userName"></span>
     </div>
-    <a href="#" class="btn btn-danger" onclick="logout()">Đăng xuất</a>
+    <a onclick="logout()" class="btn btn-danger">Đăng xuất</a>
     
 </div>
 
 <!-- SIDEBAR -->
-<div class="sidebar">
-    <a href="project.html"><i class="bi bi-house-door"></i> Trang chủ</a>
-    <a href="duan.html"><i class="bi bi-kanban"></i> Dự án của tôi</a>
-    <a href="thongbao.html"><i class="bi bi-bell"></i> Thông báo</a>
-    <a href="chinhsuatk.html"><i class="bi bi-gear"></i> Cài đặt tài khoản</a>
+<div class="sidebar" id="sidebarMenu">
+    <a href="user.html"><i class="bi bi-house-door"></i> Trang chủ</a>
+    <a href="../Nguoidung/duan.html"><i class="bi bi-kanban"></i> Dự án của tôi</a>
+    <a href="../Nguoidung/thongbao.html"><i class="bi bi-bell"></i> Thông báo</a>
+    <a href="../Nguoidung/chinhsuatk.html"><i class="bi bi-gear"></i> Cài đặt tài khoản</a>
 </div>
 
 <!-- CONTENT -->
@@ -72,7 +71,7 @@
                         <div class="flex-grow-1">
                             <div class="d-flex justify-content-between mb-3">
                                 <h6 class="mb-0">Dự án của bạn</h6>
-                                <small class="text-muted">Tham gia</small>
+                                <small id="joinStatus" class="text-muted"></small>
                             </div>
 
                             <div class="row gx-2 gy-2">
@@ -100,71 +99,25 @@
     </section>
 
     <!-- DỰ ÁN -->
-    <section id="features" class="py-5">
+    <section id="myProjectsSection" class="py-5">
         <h3 class="mb-4">Dự án của tôi</h3>
 
-        <div class="row g-4">
-
-            <div class="col-md-4">
-                <div class="feature-card" style="border-top:5px solid #0d6efd;">
-                    <div class="d-flex align-items-start gap-3 mb-3">
-                        <div class="icon-bg">
-                            <i class="bi bi-kanban fs-5"></i>
-                        </div>
-                        <div>
-                            <h6 class="mb-1">Website bán hàng</h6>
-                            <p class="text-muted small mb-1">Ngày tạo: 01/01/2025</p>
-                            <p class="text-muted small mb-0">Người tạo: Nguyễn Văn A</p>
-                            <a href="chitietduan.html" class="btn btn-sm btn-primary mt-2">
-                                Xem chi tiết
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="feature-card" style="border-top:5px solid #198754;">
-                    <div class="d-flex align-items-start gap-3 mb-3">
-                        <div class="icon-bg">
-                            <i class="bi bi-kanban fs-5"></i>
-                        </div>
-                        <div>
-                            <h6 class="mb-1">Ứng dụng quản lý</h6>
-                            <p class="text-muted small mb-1">Ngày tạo: 10/01/2025</p>
-                            <p class="text-muted small mb-0">Người tạo: Trần Thị B</p>
-                            <a href="chitietduan.html" class="btn btn-sm btn-primary mt-2">
-                                Xem chi tiết
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="feature-card" style="border-top:5px solid #dc3545;">
-                    <div class="d-flex align-items-start gap-3 mb-3">
-                        <div class="icon-bg">
-                            <i class="bi bi-kanban fs-5"></i>
-                        </div>
-                        <div>
-                            <h6 class="mb-1">Hệ thống nội bộ</h6>
-                            <p class="text-muted small mb-1">Ngày tạo: 20/01/2025</p>
-                            <p class="text-muted small mb-0">Người tạo: Lê Văn C</p>
-                            <a href="chitietduan.html" class="btn btn-sm btn-primary mt-2">
-                                Xem chi tiết
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
+        <div class="row g-4" id="projectList"></div>
 
         <div class="mt-4">
-            <a href="duan.html" class="btn btn-primary">Xem thêm</a>
+            <a href="../Nguoidung/duan.html" class="btn btn-primary">Xem thêm</a>
         </div>
     </section>
+    <!-- TẤT CẢ DỰ ÁN -->
+    <section class="py-5">
+        <h3 class="mb-4">Tất cả dự án</h3>
+        <div class="row g-4" id="allProjectList"></div>
+    </section>
+
+    <div id="loadingMore" class="text-center py-3 d-none">
+        <div class="spinner-border text-primary" role="status"></div>
+        <div class="small text-muted mt-2">Đang tải dự án...</div>
+    </div>
 
 </div>
 
@@ -172,9 +125,21 @@
 <script>
     protectPage("user");
 </script>
+<script src="../../JS/project.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const userData = JSON.parse(localStorage.getItem("currentUser"));
 
-<a href="#" onclick="logout()">Đăng xuất</a>
+    if (!userData) {
+        window.location.href = "/HTML/Trangchung/login.html";
+        return;
+    }
 
+    // Trường hợp bạn lưu dạng { user: {...} }
+    const user = userData.user || userData;
 
+    document.getElementById("userName").innerText = user.hoten || user.tendangnhap;
+});
+</script>
 </body>
 </html>
