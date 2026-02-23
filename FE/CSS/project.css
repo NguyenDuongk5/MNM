@@ -51,6 +51,9 @@ body {
     border-radius: 15px;
     transition: 0.25s;
 }
+.sidebar #linkDuyetBaiViet{
+    display: block;
+}
 
 .sidebar a:hover {
     background: #23AFFF;

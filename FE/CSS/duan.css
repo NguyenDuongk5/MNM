@@ -11,7 +11,7 @@ body {
     left: 50%;
     transform: translateX(-50%);
     width: calc(100% - 40px);
-    background: rgba(35, 175, 255, 0.85);
+    background: #23afffd9;
     backdrop-filter: blur(10px);
     color: #fff;
     height: 70px;
@@ -51,7 +51,9 @@ body {
     border-radius: 15px;
     transition: 0.25s;
 }
-
+.sidebar #linkDuyetBaiViet{
+    display: block;
+}
 .sidebar a:hover {
     background: #23AFFF;
     color: #fff;
